@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adarsh, Bipin, Yashodeep, Prashant, Miraj">
+    <meta name="description" content="Nami College Quiz Game">
+    <title>Nami Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons from Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" href="QuizLogo.png" type="image/x-icon">
+</head> 
+<body>
+    <div class="banner">
+    <!-- Quiz Start Btn-->
+    <div class="start_btn"><button>Play</button></div>
+    <!-- Quiz Rules -->
+    <div class="info_box">
+        <div class="info-title"><span>Game Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You get <span>20 seconds</span> per each question.</div>
+            <div class="info">2. Once the answer is selected, it is not possible to undo.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz once the game starts.</div>
+            <div class="info">5. You'll get your score on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Proceed</button>
+        </div>
+    </div>
+    <!--  Quiz Content Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Nami Quiz Game</div>
+            <div class="timer">
+                <div class="time_left_txt">Time</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Questions have been inserted from JS -->
+            </div>
+            <div class="option_list">
+                <!-- options have been inserted from JS -->
+            </div>
+        </section>
+        <!-- Quiz Footer-->
+        <footer>
+            <div class="total_que">
+                <!-- Question count has been inserted from JS -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!-- Final Result contents -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Quiz Complete!</div>
+        <div class="score_text">
+            <!-- Score has been inserted from JS -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay</button>
+            <button class="quit">Exit Game</button>
+        </div>
+    </div>
+  </div>
+    <!-- Questions and Options only in this JS file -->
+    <script src="js/questions.js"></script>
+    <!-- Quiz codes in this JS file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+</html>
