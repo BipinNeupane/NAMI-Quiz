@@ -2,57 +2,57 @@
 let questions = [
   {
   numb: 1,
-  question: "What is the full form of JS?",
-  answer: "Java Script",
+  question: "Where is Nami College Located?",
+  answer: "Jorpati",
   options: [
-    "Java Security",
-    "Java Script",
-    "Jackson Smith",
-    "Joint Server"
+    "Lalitpur",
+    "Samakhusi",
+    "Jorpati",
+    "Budanilkantha"
   ]
 },
   {
   numb: 2,
-  question: "HexaDecimal Number System has the base of?",
-  answer: "16",
+  question: "Nami is partnered with which University?",
+  answer: "Northhamption",
   options: [
-    "2",
-    "8",
-    "16",
-    "32"
+    "Oxford",
+    "Havard",
+    "Cambridge",
+    "Northhamption"
   ]
 },
   {
   numb: 3,
-  question: "Which is the current Intel generation?",
-  answer: "12",
+  question: "Who is the principal of Nami College?",
+  answer: "Sanjiv Udas",
   options: [
-    "7",
-    "10",
-    "12",
-    "9"
+    "Ankit Thapa",
+    "Nischal Khadka",
+    "Devendra Timilsina",
+    "Sanjiv Udas"
   ]
 },
   {
   numb: 4,
-  question: "Which of the following is volatile?",
-  answer: "RAM",
+  question: "Who teaches web development for L4?",
+  answer: "Ankit Sir",
   options: [
-    "ROM",
-    "NVRAM",
-    "RAM",
-    "Motherboard"
+    "Ankit Sir",
+    "Nischal Sir",
+    "Bijayashri Maam",
+    "Kumar Sir"
   ]
 },
   {
   numb: 5,
-  question: "JAVA is known as?",
-  answer: "Object-Oriented Programming Language",
+  question: "Who teaches networking for L4?",
+  answer: "Nischal Sir",
   options: [
-    "HyperText Markup Language",
-    "Object-Oriented Programming Language",
-    "Logic Programming Language",
-    "Scripting Programming Language"
+    "Bijayashri Maam",
+    "Kumar Sir",
+    "Nischal Sir",
+    "Ankit Sir"
   ]
 },
 
